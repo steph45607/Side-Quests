@@ -12,7 +12,6 @@ stocks = {
     "Pear":15
 }
 
-answer = str()
 
 Groceries = ["Banana", "Pear", "Orange"]
 
