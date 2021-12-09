@@ -20,11 +20,9 @@ class Circle:
 
     def getArea(self) -> float:
         return ((22/7)*(self.getRadius()**2))
-    
-    
-    
+
 class Cylinder(Circle):
-    def __init__(self, radius=1, color="red", height : float = 1) -> None:
+    def __init__(self, radius=1.0, color="red", height : float = 1.0) -> None:
         super().__init__(radius=radius, color=color)
         self.__height = height
     
