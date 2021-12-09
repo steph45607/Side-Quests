@@ -1,33 +1,11 @@
 from abc import get_cache_token
 from num2 import *
 
-# bob = Cylinder(3, 10, "purple")
-
-# print(bob.getRadius())
-# bob.setRadius(5)
-# print(bob.getRadius())
-
-# print(bob.getColor())
-# bob.setColor("green")
-# print(bob.getColor())
-
-# # print(bob.toString())
-# print(bob.getArea())
-
-# print(bob.getHeight())
-# bob.setHeight(7)
-# print(bob.getHeight())
-
-# print(bob.toString())
-
-# print(f"There is a {bob.getColor()} cylinder named Bob.")
-# print(f"Bob's radius is {bob.getRadius()}, and his area is {bob.getArea()}")
-
 def main():
-    bob = Cylinder(3, 10, "purple")
+    bob = Cylinder(3, "purple",10)
     print(f"There is a {bob.getColor()} cylinder named Bob.")
     print(f"Bob's radius is {bob.getRadius()}, and his base's area is {bob.getArea():.2f}")
-    print(f"Bob's voulme is {bob.getVolume():.2f}\n")
+    print(f"Bob's height is {bob.getHeight()}, and his voulme is {bob.getVolume():.2f}\n")
 
     answer = str(input("Do you want to change bob? (Y/N): "))
 
